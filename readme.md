@@ -12,7 +12,7 @@ INTRODUCTION
 
 The gpacalc is a front-end based web app that is aimed at calculating the gpa and cgpa on students.
 
-So far the calculator is based on the 5.0 grade scale.
+So far the calculator is based on the 5.0 and 7.0 grade scale.
 
 It uses javascript for the manipulation of DOM elements.
 

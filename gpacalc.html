@@ -7,20 +7,24 @@
 </head>
 <body>
 	<div class="container">
-		<div class="contentbox card">
-			<div class="text-center">
-				<h2>Welcome to your personal GPA calculator</h2>
-				<p>Number of semesters: <input type="number" id="semesters"></p>
-				<div id="semesterDetails"></div>
-			</div>
-			<p id="remove">N/B: This calculator is based on a 5.0 grade scale</p>
+		<div class="header">
+			<h2>Welcome to your personal GPA calculator</h2>
+			<p>Number of semesters: <input type="number" id="numOfTables"></p>
+			<label>Grading System: </label>
+			<select id='gradePoint'>
+  			<option value="1">5.0 Points</option>
+  			<option value="2">7.0 Points</option>
+			</select>
 		</div>
 	</div>
+	<div id="semesterDetails"></div>
+	<p class='cgpaMessage'></p>
+	<button class='btn btn-primary notSeen'>Calculate</button>
 
 
 	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="gpacalc.js"></script>
+	<script type="text/javascript" src="calc.js"></script>
 </body>
 </html>
